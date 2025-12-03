@@ -314,6 +314,12 @@ adb push video_source.yml /sdcard/Android/data/com.xrobotoolkit.client/files/vid
 
 A: Run `adb shell rm /sdcard/Android/data/com.xrobotoolkit.client/files/video_source.yml`.
 
+- Q: The number of tracker on PC-service is 0, why is that?
+
+A: The PC-service will only show the number of trackers when Unity app use object tracking mode. If you choose full body mode, the output will be 24 joints of human body. please refer to this code [link](https://github.com/XR-Robotics/XRoboToolkit-PC-Service-Pybind/blob/main/examples/example_body_tracking.py )
+
+- Q: I cannot get vision captured by the Pico 4U, how to solve it?
+A:  Please contact Pico enterprise team to get camera access. After that enable the camera access in XRobotoolkit app in the headset.
 ---
 
 For technical support or documentation updates, contact the development team.
