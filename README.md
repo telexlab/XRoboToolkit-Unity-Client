@@ -320,6 +320,7 @@ A: The PC-service will only show the number of trackers when Unity app use objec
 
 - Q: I cannot get vision captured by the Pico 4U, how to solve it?
 A:  Please contact Pico enterprise team to get camera access. After that enable the camera access in XRobotoolkit app in the headset.
+![open_camera_access.jpg](Docs/open_camera_access.jpg)
 ---
 
 For technical support or documentation updates, contact the development team.
