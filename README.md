@@ -3,6 +3,24 @@
 ## Project Overview
 `XRoboToolkit-Unity-Client` is a Unity-based software developed for PICO devices to facilitate robot training and remote teleoperation. It works in conjunction with PC-side software to achieve robot training and teleoperation functionalities.
 
+## Installation
+
+### Environment Requirements
+- Unity 2022.3.16f1+
+- Android Studio 4.2.2+
+- Android SDK 29
+- Android NDK 21.4.7075529
+- PICO Integration SDK (com.unity.xr.picoxr) 3.1.2
+
+## Take Note during Installation Process
+- Download **zip** of main branch
+- Setup keystore password under project settings\player\publishing settings
+- Inside ...\XRoboToolkit-Unity-Client-main\XRoboToolkit-Unity-Client-main\Assets\Plugins\Android: add the following line to AndroidManifest.xml file (should be added in this version)
+  <uses-permission android:name="com.pico.permission.VIDEO_SEE_THROUGH" />
+- Build and Run to all compatible devices
+  
+
+
 ## Unity UI Main Panel Reference
 
 ![ui.png](Docs/ui.png)
