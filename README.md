@@ -16,8 +16,12 @@
 - Download **zip** of main branch
 - Setup keystore password under project settings\player\publishing settings
 - Inside ...\XRoboToolkit-Unity-Client-main\XRoboToolkit-Unity-Client-main\Assets\Plugins\Android: add the following line to AndroidManifest.xml file (should be added in this version)
-  <uses-permission android:name="com.pico.permission.VIDEO_SEE_THROUGH" />
+  '''<uses-permission android:name="com.pico.permission.VIDEO_SEE_THROUGH" />'''
 - Build and Run to all compatible devices
+
+- If you have this error: Failure [INSTALL_FAILED_UPDATE_INCOMPATIBLE: Existing package com.xrobotoolkit.client signatures do not match newer version; ignoring!]
+  it means you have an existing apk on the pico headset without the same keystore. Try deleting the current app manually or by
+  '''adb uninstall com.xrobotoolkit.client'''
   
 
 
