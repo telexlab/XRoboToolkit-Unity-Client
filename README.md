@@ -12,7 +12,7 @@
 - Android NDK 21.4.7075529
 - PICO Integration SDK (com.unity.xr.picoxr) 3.1.2
 
-## Take Note during Installation Process
+### Take Note during Installation Process
 - Download **zip** of main branch
 - Setup keystore password under project settings\player\publishing settings
 - Inside ...\XRoboToolkit-Unity-Client-main\XRoboToolkit-Unity-Client-main\Assets\Plugins\Android: add the following line to AndroidManifest.xml file (should be added in this version)
