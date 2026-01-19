@@ -3,6 +3,16 @@
 ## Project Overview
 `XRoboToolkit-Unity-Client` is a Unity-based software developed for PICO devices to facilitate robot training and remote teleoperation. It works in conjunction with PC-side software to achieve robot training and teleoperation functionalities.
 
+## Installation
+1. Clone repo
+2. Build APK locally
+3. install onto headset with
+   ```bash
+   adb install -g APK
+   ```
+
+
+
 ## Unity UI Main Panel Reference
 
 ![ui.png](Docs/ui.png)
